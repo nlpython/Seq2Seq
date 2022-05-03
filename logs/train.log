@@ -685,3 +685,611 @@
 2022-05-03 22:01:57.858 | INFO     | __main__:train:54 - Epoch 9 step 74 loss 0.6250
 2022-05-03 22:01:57.868 | INFO     | __main__:train:59 - Inference | target: 10/Jan/1985, pred:10/Jan/1984<EOS>
 
+2022-05-03 22:02:17.089 | INFO     | args:print_arguments:5 - -----------  Configuration Arguments -----------
+2022-05-03 22:02:17.089 | INFO     | args:print_arguments:7 - batch_size: 32
+2022-05-03 22:02:17.090 | INFO     | args:print_arguments:7 - dec_emb_dim: 16
+2022-05-03 22:02:17.090 | INFO     | args:print_arguments:7 - dec_hid_dim: 32
+2022-05-03 22:02:17.090 | INFO     | args:print_arguments:7 - enc_emb_dim: 16
+2022-05-03 22:02:17.090 | INFO     | args:print_arguments:7 - enc_hid_dim: 32
+2022-05-03 22:02:17.090 | INFO     | args:print_arguments:7 - epochs: 500
+2022-05-03 22:02:17.090 | INFO     | args:print_arguments:7 - log_path: logs/
+2022-05-03 22:02:17.091 | INFO     | args:print_arguments:7 - lr: 0.001
+2022-05-03 22:02:17.091 | INFO     | args:print_arguments:7 - max_seq_len: 11
+2022-05-03 22:02:17.091 | INFO     | args:print_arguments:7 - save_path: checkpoints/
+2022-05-03 22:02:17.091 | INFO     | args:print_arguments:7 - seed: 42
+2022-05-03 22:02:17.091 | INFO     | args:print_arguments:8 - ------------------------------------------------
+2022-05-03 22:02:19.519 | INFO     | __main__:train:35 - Start training...
+2022-05-03 22:02:21.024 | INFO     | __main__:train:54 - Epoch 0 step 99 loss 2.2301
+2022-05-03 22:02:21.028 | INFO     | __main__:train:59 - Inference | target: 01/Jun/2015, pred:2//////<EOS>
+
+2022-05-03 22:02:22.216 | INFO     | __main__:train:54 - Epoch 1 step 74 loss 1.6786
+2022-05-03 22:02:22.220 | INFO     | __main__:train:59 - Inference | target: 18/Jun/1999, pred:21///2000<EOS>
+
+2022-05-03 22:02:23.362 | INFO     | __main__:train:54 - Epoch 2 step 49 loss 1.3731
+2022-05-03 22:02:23.367 | INFO     | __main__:train:59 - Inference | target: 09/Apr/2015, pred:20///2000<EOS>
+
+2022-05-03 22:02:24.479 | INFO     | __main__:train:54 - Epoch 3 step 24 loss 1.1888
+2022-05-03 22:02:24.482 | INFO     | __main__:train:59 - Inference | target: 13/Nov/2010, pred:11///2000<EOS>
+
+2022-05-03 22:02:25.562 | INFO     | __main__:train:54 - Epoch 3 step 124 loss 1.1196
+2022-05-03 22:02:25.566 | INFO     | __main__:train:59 - Inference | target: 26/Nov/2020, pred:20/Jan/2002<EOS>
+
+2022-05-03 22:02:26.692 | INFO     | __main__:train:54 - Epoch 4 step 99 loss 1.0392
+2022-05-03 22:02:26.696 | INFO     | __main__:train:59 - Inference | target: 06/Jan/2019, pred:20/Mar/2002<EOS>
+
+2022-05-03 22:02:27.863 | INFO     | __main__:train:54 - Epoch 5 step 74 loss 0.9829
+2022-05-03 22:02:27.867 | INFO     | __main__:train:59 - Inference | target: 30/Jul/1981, pred:10/Jul/2002<EOS>
+
+2022-05-03 22:02:29.047 | INFO     | __main__:train:54 - Epoch 6 step 49 loss 0.9559
+2022-05-03 22:02:29.051 | INFO     | __main__:train:59 - Inference | target: 25/Dec/2000, pred:10/Jan/2002<EOS>
+
+2022-05-03 22:02:30.134 | INFO     | __main__:train:54 - Epoch 7 step 24 loss 0.9002
+2022-05-03 22:02:30.138 | INFO     | __main__:train:59 - Inference | target: 17/Aug/1999, pred:27/Jul/1998<EOS>
+
+2022-05-03 22:02:31.306 | INFO     | __main__:train:54 - Epoch 7 step 124 loss 0.8585
+2022-05-03 22:02:31.310 | INFO     | __main__:train:59 - Inference | target: 07/Jun/2018, pred:08/Mar/2002<EOS>
+
+2022-05-03 22:02:32.511 | INFO     | __main__:train:54 - Epoch 8 step 99 loss 0.7722
+2022-05-03 22:02:32.514 | INFO     | __main__:train:59 - Inference | target: 19/Sep/2025, pred:19/Jul/2023<EOS>
+
+2022-05-03 22:02:34.253 | INFO     | __main__:train:54 - Epoch 9 step 74 loss 0.7205
+2022-05-03 22:02:34.257 | INFO     | __main__:train:59 - Inference | target: 16/Apr/2007, pred:26/Jan/2008<EOS>
+
+2022-05-03 22:02:35.606 | INFO     | __main__:train:54 - Epoch 10 step 49 loss 0.6518
+2022-05-03 22:02:35.611 | INFO     | __main__:train:59 - Inference | target: 23/Dec/2003, pred:13/Jan/2003<EOS>
+
+2022-05-03 22:02:36.774 | INFO     | __main__:train:54 - Epoch 11 step 24 loss 0.5822
+2022-05-03 22:02:36.779 | INFO     | __main__:train:59 - Inference | target: 27/Jun/2027, pred:27/Mar/2028<EOS>
+
+2022-05-03 22:02:37.980 | INFO     | __main__:train:54 - Epoch 11 step 124 loss 0.5719
+2022-05-03 22:02:37.984 | INFO     | __main__:train:59 - Inference | target: 04/Feb/2006, pred:04/Mar/2003<EOS>
+
+2022-05-03 22:02:39.099 | INFO     | __main__:train:54 - Epoch 12 step 99 loss 0.5468
+2022-05-03 22:02:39.102 | INFO     | __main__:train:59 - Inference | target: 22/Feb/2007, pred:22/Jan/2007<EOS>
+
+2022-05-03 22:02:40.193 | INFO     | __main__:train:54 - Epoch 13 step 74 loss 0.5194
+2022-05-03 22:02:40.197 | INFO     | __main__:train:59 - Inference | target: 27/Jul/1976, pred:27/Jan/1976<EOS>
+
+2022-05-03 22:02:41.267 | INFO     | __main__:train:54 - Epoch 14 step 49 loss 0.4662
+2022-05-03 22:02:41.270 | INFO     | __main__:train:59 - Inference | target: 11/Aug/2025, pred:11/Mar/2024<EOS>
+
+2022-05-03 22:02:42.350 | INFO     | __main__:train:54 - Epoch 15 step 24 loss 0.4649
+2022-05-03 22:02:42.354 | INFO     | __main__:train:59 - Inference | target: 03/May/2025, pred:03/Mar/2023<EOS>
+
+2022-05-03 22:02:43.433 | INFO     | __main__:train:54 - Epoch 15 step 124 loss 0.4271
+2022-05-03 22:02:43.437 | INFO     | __main__:train:59 - Inference | target: 16/Jul/1998, pred:16/Jun/1998<EOS>
+
+2022-05-03 22:02:44.512 | INFO     | __main__:train:54 - Epoch 16 step 99 loss 0.4025
+2022-05-03 22:02:44.515 | INFO     | __main__:train:59 - Inference | target: 16/Nov/1979, pred:16/Jun/1979<EOS>
+
+2022-05-03 22:02:45.594 | INFO     | __main__:train:54 - Epoch 17 step 74 loss 0.3712
+2022-05-03 22:02:45.597 | INFO     | __main__:train:59 - Inference | target: 01/Oct/1980, pred:01/Jan/1980<EOS>
+
+2022-05-03 22:02:46.670 | INFO     | __main__:train:54 - Epoch 18 step 49 loss 0.3611
+2022-05-03 22:02:46.674 | INFO     | __main__:train:59 - Inference | target: 07/May/2008, pred:07/Jun/2008<EOS>
+
+2022-05-03 22:02:47.747 | INFO     | __main__:train:54 - Epoch 19 step 24 loss 0.3341
+2022-05-03 22:02:47.752 | INFO     | __main__:train:59 - Inference | target: 19/Jun/2027, pred:19/Jun/2027<EOS>
+
+2022-05-03 22:02:48.823 | INFO     | __main__:train:54 - Epoch 19 step 124 loss 0.3275
+2022-05-03 22:02:48.827 | INFO     | __main__:train:59 - Inference | target: 05/Jun/2007, pred:05/Aug/2007<EOS>
+
+2022-05-03 22:02:49.902 | INFO     | __main__:train:54 - Epoch 20 step 99 loss 0.3060
+2022-05-03 22:02:49.906 | INFO     | __main__:train:59 - Inference | target: 21/Oct/1997, pred:21/Dec/1997<EOS>
+
+2022-05-03 22:02:50.983 | INFO     | __main__:train:54 - Epoch 21 step 74 loss 0.3097
+2022-05-03 22:02:50.986 | INFO     | __main__:train:59 - Inference | target: 19/Apr/1992, pred:19/Jun/1992<EOS>
+
+2022-05-03 22:02:52.056 | INFO     | __main__:train:54 - Epoch 22 step 49 loss 0.3009
+2022-05-03 22:02:52.060 | INFO     | __main__:train:59 - Inference | target: 21/Dec/1975, pred:21/Dec/1975<EOS>
+
+2022-05-03 22:02:53.138 | INFO     | __main__:train:54 - Epoch 23 step 24 loss 0.2765
+2022-05-03 22:02:53.141 | INFO     | __main__:train:59 - Inference | target: 11/Jun/2017, pred:11/Sep/2017<EOS>
+
+2022-05-03 22:02:54.243 | INFO     | __main__:train:54 - Epoch 23 step 124 loss 0.2901
+2022-05-03 22:02:54.247 | INFO     | __main__:train:59 - Inference | target: 26/Jan/1988, pred:26/Jul/1988<EOS>
+
+2022-05-03 22:02:55.333 | INFO     | __main__:train:54 - Epoch 24 step 99 loss 0.2644
+2022-05-03 22:02:55.337 | INFO     | __main__:train:59 - Inference | target: 28/Nov/1993, pred:28/Aug/1993<EOS>
+
+2022-05-03 22:02:56.423 | INFO     | __main__:train:54 - Epoch 25 step 74 loss 0.2659
+2022-05-03 22:02:56.428 | INFO     | __main__:train:59 - Inference | target: 25/Jul/1995, pred:25/Jun/1995<EOS>
+
+2022-05-03 22:02:57.512 | INFO     | __main__:train:54 - Epoch 26 step 49 loss 0.2518
+2022-05-03 22:02:57.516 | INFO     | __main__:train:59 - Inference | target: 27/Nov/1984, pred:27/Dec/1984<EOS>
+
+2022-05-03 22:02:58.590 | INFO     | __main__:train:54 - Epoch 27 step 24 loss 0.2555
+2022-05-03 22:02:58.594 | INFO     | __main__:train:59 - Inference | target: 12/Feb/1982, pred:12/Dec/1982<EOS>
+
+2022-05-03 22:02:59.678 | INFO     | __main__:train:54 - Epoch 27 step 124 loss 0.2284
+2022-05-03 22:02:59.681 | INFO     | __main__:train:59 - Inference | target: 01/Sep/1985, pred:01/Jul/1985<EOS>
+
+2022-05-03 22:03:00.765 | INFO     | __main__:train:54 - Epoch 28 step 99 loss 0.2373
+2022-05-03 22:03:00.769 | INFO     | __main__:train:59 - Inference | target: 18/May/2000, pred:18/Aug/2000<EOS>
+
+2022-05-03 22:03:02.035 | INFO     | __main__:train:54 - Epoch 29 step 74 loss 0.2180
+2022-05-03 22:03:02.038 | INFO     | __main__:train:59 - Inference | target: 28/Nov/2006, pred:28/Jan/2006<EOS>
+
+2022-05-03 22:03:03.227 | INFO     | __main__:train:54 - Epoch 30 step 49 loss 0.2155
+2022-05-03 22:03:03.231 | INFO     | __main__:train:59 - Inference | target: 26/Feb/1985, pred:26/Jan/1985<EOS>
+
+2022-05-03 22:03:04.364 | INFO     | __main__:train:54 - Epoch 31 step 24 loss 0.2052
+2022-05-03 22:03:04.367 | INFO     | __main__:train:59 - Inference | target: 31/Jul/2019, pred:31/Aug/2019<EOS>
+
+2022-05-03 22:03:05.482 | INFO     | __main__:train:54 - Epoch 31 step 124 loss 0.2014
+2022-05-03 22:03:05.486 | INFO     | __main__:train:59 - Inference | target: 26/Jun/2004, pred:26/Sep/2004<EOS>
+
+2022-05-03 22:03:06.580 | INFO     | __main__:train:54 - Epoch 32 step 99 loss 0.1992
+2022-05-03 22:03:06.584 | INFO     | __main__:train:59 - Inference | target: 02/Aug/1987, pred:02/Aug/1987<EOS>
+
+2022-05-03 22:03:07.674 | INFO     | __main__:train:54 - Epoch 33 step 74 loss 0.1979
+2022-05-03 22:03:07.678 | INFO     | __main__:train:59 - Inference | target: 08/Sep/2000, pred:08/Sep/2000<EOS>
+
+2022-05-03 22:03:08.797 | INFO     | __main__:train:54 - Epoch 34 step 49 loss 0.1797
+2022-05-03 22:03:08.801 | INFO     | __main__:train:59 - Inference | target: 20/Feb/2014, pred:20/Feb/2014<EOS>
+
+2022-05-03 22:03:10.026 | INFO     | __main__:train:54 - Epoch 35 step 24 loss 0.1937
+2022-05-03 22:03:10.031 | INFO     | __main__:train:59 - Inference | target: 27/Oct/1981, pred:27/Jan/1981<EOS>
+
+2022-05-03 22:03:11.175 | INFO     | __main__:train:54 - Epoch 35 step 124 loss 0.1777
+2022-05-03 22:03:11.179 | INFO     | __main__:train:59 - Inference | target: 05/Jan/2002, pred:05/Mar/2002<EOS>
+
+2022-05-03 22:03:12.798 | INFO     | __main__:train:54 - Epoch 36 step 99 loss 0.1899
+2022-05-03 22:03:12.803 | INFO     | __main__:train:59 - Inference | target: 11/Jul/2022, pred:11/Jul/2022<EOS>
+
+2022-05-03 22:03:14.213 | INFO     | __main__:train:54 - Epoch 37 step 74 loss 0.1753
+2022-05-03 22:03:14.217 | INFO     | __main__:train:59 - Inference | target: 30/May/1996, pred:30/May/1996<EOS>
+
+2022-05-03 22:03:15.586 | INFO     | __main__:train:54 - Epoch 38 step 49 loss 0.1430
+2022-05-03 22:03:15.590 | INFO     | __main__:train:59 - Inference | target: 02/Jun/1995, pred:02/Jun/1995<EOS>
+
+2022-05-03 22:03:16.953 | INFO     | __main__:train:54 - Epoch 39 step 24 loss 0.1508
+2022-05-03 22:03:16.957 | INFO     | __main__:train:59 - Inference | target: 12/Aug/1982, pred:12/Aug/1982<EOS>
+
+2022-05-03 22:03:18.126 | INFO     | __main__:train:54 - Epoch 39 step 124 loss 0.1418
+2022-05-03 22:03:18.130 | INFO     | __main__:train:59 - Inference | target: 13/Dec/2027, pred:13/Dec/2027<EOS>
+
+2022-05-03 22:03:19.236 | INFO     | __main__:train:54 - Epoch 40 step 99 loss 0.1365
+2022-05-03 22:03:19.240 | INFO     | __main__:train:59 - Inference | target: 19/Nov/2021, pred:19/Nov/2021<EOS>
+
+2022-05-03 22:03:20.332 | INFO     | __main__:train:54 - Epoch 41 step 74 loss 0.1274
+2022-05-03 22:03:20.336 | INFO     | __main__:train:59 - Inference | target: 29/Mar/2011, pred:29/Mar/2011<EOS>
+
+2022-05-03 22:03:21.424 | INFO     | __main__:train:54 - Epoch 42 step 49 loss 0.1122
+2022-05-03 22:03:21.428 | INFO     | __main__:train:59 - Inference | target: 11/Apr/2019, pred:11/Apr/2019<EOS>
+
+2022-05-03 22:03:22.504 | INFO     | __main__:train:54 - Epoch 43 step 24 loss 0.1131
+2022-05-03 22:03:22.508 | INFO     | __main__:train:59 - Inference | target: 21/Sep/2031, pred:21/Sep/2031<EOS>
+
+2022-05-03 22:03:23.608 | INFO     | __main__:train:54 - Epoch 43 step 124 loss 0.1061
+2022-05-03 22:03:23.612 | INFO     | __main__:train:59 - Inference | target: 07/Jan/2006, pred:07/Jan/2006<EOS>
+
+2022-05-03 22:03:24.689 | INFO     | __main__:train:54 - Epoch 44 step 99 loss 0.0879
+2022-05-03 22:03:24.693 | INFO     | __main__:train:59 - Inference | target: 03/Aug/2024, pred:03/Aug/2024<EOS>
+
+2022-05-03 22:03:25.776 | INFO     | __main__:train:54 - Epoch 45 step 74 loss 0.0988
+2022-05-03 22:03:25.780 | INFO     | __main__:train:59 - Inference | target: 24/Apr/2003, pred:24/Apr/2003<EOS>
+
+2022-05-03 22:03:26.852 | INFO     | __main__:train:54 - Epoch 46 step 49 loss 0.0951
+2022-05-03 22:03:26.856 | INFO     | __main__:train:59 - Inference | target: 23/Feb/1977, pred:23/Feb/1977<EOS>
+
+2022-05-03 22:03:27.925 | INFO     | __main__:train:54 - Epoch 47 step 24 loss 0.0849
+2022-05-03 22:03:27.929 | INFO     | __main__:train:59 - Inference | target: 10/Aug/2025, pred:10/Aug/2025<EOS>
+
+2022-05-03 22:03:29.006 | INFO     | __main__:train:54 - Epoch 47 step 124 loss 0.0709
+2022-05-03 22:03:29.010 | INFO     | __main__:train:59 - Inference | target: 02/Feb/2017, pred:02/Feb/2017<EOS>
+
+2022-05-03 22:03:30.096 | INFO     | __main__:train:54 - Epoch 48 step 99 loss 0.0564
+2022-05-03 22:03:30.100 | INFO     | __main__:train:59 - Inference | target: 25/Jun/1991, pred:25/Jun/1991<EOS>
+
+2022-05-03 22:03:31.285 | INFO     | __main__:train:54 - Epoch 49 step 74 loss 0.0649
+2022-05-03 22:03:31.290 | INFO     | __main__:train:59 - Inference | target: 10/Aug/2006, pred:10/Aug/2006<EOS>
+
+2022-05-03 22:03:32.404 | INFO     | __main__:train:54 - Epoch 50 step 49 loss 0.0584
+2022-05-03 22:03:32.408 | INFO     | __main__:train:59 - Inference | target: 25/Apr/1994, pred:25/Apr/1994<EOS>
+
+2022-05-03 22:03:33.561 | INFO     | __main__:train:54 - Epoch 51 step 24 loss 0.0516
+2022-05-03 22:03:33.565 | INFO     | __main__:train:59 - Inference | target: 01/Dec/2022, pred:01/Dec/2022<EOS>
+
+2022-05-03 22:03:34.685 | INFO     | __main__:train:54 - Epoch 51 step 124 loss 0.0480
+2022-05-03 22:03:34.689 | INFO     | __main__:train:59 - Inference | target: 23/May/2002, pred:23/May/2002<EOS>
+
+2022-05-03 22:03:35.766 | INFO     | __main__:train:54 - Epoch 52 step 99 loss 0.0504
+2022-05-03 22:03:35.770 | INFO     | __main__:train:59 - Inference | target: 07/Apr/2018, pred:07/Apr/2018<EOS>
+
+2022-05-03 22:03:36.844 | INFO     | __main__:train:54 - Epoch 53 step 74 loss 0.0385
+2022-05-03 22:03:36.848 | INFO     | __main__:train:59 - Inference | target: 24/Aug/2032, pred:24/Aug/2032<EOS>
+
+2022-05-03 22:03:37.960 | INFO     | __main__:train:54 - Epoch 54 step 49 loss 0.0380
+2022-05-03 22:03:37.963 | INFO     | __main__:train:59 - Inference | target: 11/Dec/1987, pred:11/Dec/1987<EOS>
+
+2022-05-03 22:03:39.036 | INFO     | __main__:train:54 - Epoch 55 step 24 loss 0.0432
+2022-05-03 22:03:39.040 | INFO     | __main__:train:59 - Inference | target: 31/Dec/1980, pred:31/Dec/1980<EOS>
+
+2022-05-03 22:03:40.112 | INFO     | __main__:train:54 - Epoch 55 step 124 loss 0.0329
+2022-05-03 22:03:40.117 | INFO     | __main__:train:59 - Inference | target: 13/Jan/1985, pred:13/Jan/1985<EOS>
+
+2022-05-03 22:03:41.201 | INFO     | __main__:train:54 - Epoch 56 step 99 loss 0.0303
+2022-05-03 22:03:41.205 | INFO     | __main__:train:59 - Inference | target: 28/Jan/1982, pred:28/Jan/1982<EOS>
+
+2022-05-03 22:03:42.644 | INFO     | __main__:train:54 - Epoch 57 step 74 loss 0.0209
+2022-05-03 22:03:42.648 | INFO     | __main__:train:59 - Inference | target: 26/Oct/2022, pred:26/Oct/2022<EOS>
+
+2022-05-03 22:03:43.830 | INFO     | __main__:train:54 - Epoch 58 step 49 loss 0.0261
+2022-05-03 22:03:43.834 | INFO     | __main__:train:59 - Inference | target: 22/Aug/2024, pred:22/Aug/2024<EOS>
+
+2022-05-03 22:03:45.019 | INFO     | __main__:train:54 - Epoch 59 step 24 loss 0.0213
+2022-05-03 22:03:45.023 | INFO     | __main__:train:59 - Inference | target: 18/Jun/2023, pred:18/Jun/2023<EOS>
+
+2022-05-03 22:03:46.200 | INFO     | __main__:train:54 - Epoch 59 step 124 loss 0.0203
+2022-05-03 22:03:46.205 | INFO     | __main__:train:59 - Inference | target: 23/Jan/2034, pred:23/Jan/2034<EOS>
+
+2022-05-03 22:03:47.353 | INFO     | __main__:train:54 - Epoch 60 step 99 loss 0.0185
+2022-05-03 22:03:47.357 | INFO     | __main__:train:59 - Inference | target: 24/Apr/2030, pred:24/Apr/2030<EOS>
+
+2022-05-03 22:03:48.526 | INFO     | __main__:train:54 - Epoch 61 step 74 loss 0.0141
+2022-05-03 22:03:48.531 | INFO     | __main__:train:59 - Inference | target: 10/Feb/2026, pred:10/Feb/2026<EOS>
+
+2022-05-03 22:03:49.688 | INFO     | __main__:train:54 - Epoch 62 step 49 loss 0.0159
+2022-05-03 22:03:49.692 | INFO     | __main__:train:59 - Inference | target: 04/Aug/1977, pred:04/Aug/1977<EOS>
+
+2022-05-03 22:03:50.856 | INFO     | __main__:train:54 - Epoch 63 step 24 loss 0.0123
+2022-05-03 22:03:50.860 | INFO     | __main__:train:59 - Inference | target: 28/Jan/2017, pred:28/Jan/2017<EOS>
+
+2022-05-03 22:03:52.038 | INFO     | __main__:train:54 - Epoch 63 step 124 loss 0.0125
+2022-05-03 22:03:52.042 | INFO     | __main__:train:59 - Inference | target: 07/Sep/2015, pred:07/Sep/2015<EOS>
+
+2022-05-03 22:03:53.244 | INFO     | __main__:train:54 - Epoch 64 step 99 loss 0.0105
+2022-05-03 22:03:53.248 | INFO     | __main__:train:59 - Inference | target: 24/Apr/2012, pred:24/Apr/2012<EOS>
+
+2022-05-03 22:03:54.432 | INFO     | __main__:train:54 - Epoch 65 step 74 loss 0.0103
+2022-05-03 22:03:54.436 | INFO     | __main__:train:59 - Inference | target: 05/Mar/1995, pred:05/Mar/1995<EOS>
+
+2022-05-03 22:03:55.604 | INFO     | __main__:train:54 - Epoch 66 step 49 loss 0.0093
+2022-05-03 22:03:55.609 | INFO     | __main__:train:59 - Inference | target: 18/Sep/1995, pred:18/Sep/1995<EOS>
+
+2022-05-03 22:03:56.932 | INFO     | __main__:train:54 - Epoch 67 step 24 loss 0.0099
+2022-05-03 22:03:56.937 | INFO     | __main__:train:59 - Inference | target: 27/Apr/1978, pred:27/Apr/1978<EOS>
+
+2022-05-03 22:03:58.316 | INFO     | __main__:train:54 - Epoch 67 step 124 loss 0.0081
+2022-05-03 22:03:58.320 | INFO     | __main__:train:59 - Inference | target: 04/Jan/1988, pred:04/Jan/1988<EOS>
+
+2022-05-03 22:04:00.021 | INFO     | __main__:train:54 - Epoch 68 step 99 loss 0.0074
+2022-05-03 22:04:00.026 | INFO     | __main__:train:59 - Inference | target: 29/Aug/2009, pred:29/Aug/2009<EOS>
+
+2022-05-03 22:04:01.262 | INFO     | __main__:train:54 - Epoch 69 step 74 loss 0.0078
+2022-05-03 22:04:01.267 | INFO     | __main__:train:59 - Inference | target: 04/Mar/1996, pred:04/Mar/1996<EOS>
+
+2022-05-03 22:04:02.422 | INFO     | __main__:train:54 - Epoch 70 step 49 loss 0.0074
+2022-05-03 22:04:02.426 | INFO     | __main__:train:59 - Inference | target: 09/Feb/1993, pred:09/Feb/1993<EOS>
+
+2022-05-03 22:04:03.603 | INFO     | __main__:train:54 - Epoch 71 step 24 loss 0.0074
+2022-05-03 22:04:03.607 | INFO     | __main__:train:59 - Inference | target: 13/Mar/2002, pred:13/Mar/2002<EOS>
+
+2022-05-03 22:04:04.796 | INFO     | __main__:train:54 - Epoch 71 step 124 loss 0.0058
+2022-05-03 22:04:04.801 | INFO     | __main__:train:59 - Inference | target: 02/Mar/2002, pred:02/Mar/2002<EOS>
+
+2022-05-03 22:04:06.027 | INFO     | __main__:train:54 - Epoch 72 step 99 loss 0.0060
+2022-05-03 22:04:06.032 | INFO     | __main__:train:59 - Inference | target: 01/Dec/2011, pred:01/Dec/2011<EOS>
+
+2022-05-03 22:04:07.327 | INFO     | __main__:train:54 - Epoch 73 step 74 loss 0.0043
+2022-05-03 22:04:07.331 | INFO     | __main__:train:59 - Inference | target: 14/Mar/2015, pred:14/Mar/2015<EOS>
+
+2022-05-03 22:04:08.526 | INFO     | __main__:train:54 - Epoch 74 step 49 loss 0.0037
+2022-05-03 22:04:08.531 | INFO     | __main__:train:59 - Inference | target: 20/Sep/1993, pred:20/Sep/1993<EOS>
+
+2022-05-03 22:04:09.790 | INFO     | __main__:train:54 - Epoch 75 step 24 loss 0.0042
+2022-05-03 22:04:09.794 | INFO     | __main__:train:59 - Inference | target: 09/Feb/2022, pred:09/Feb/2022<EOS>
+
+2022-05-03 22:04:10.915 | INFO     | __main__:train:54 - Epoch 75 step 124 loss 0.0054
+2022-05-03 22:04:10.919 | INFO     | __main__:train:59 - Inference | target: 21/Apr/1979, pred:21/Apr/1979<EOS>
+
+2022-05-03 22:04:12.042 | INFO     | __main__:train:54 - Epoch 76 step 99 loss 0.0032
+2022-05-03 22:04:12.046 | INFO     | __main__:train:59 - Inference | target: 27/Apr/2003, pred:27/Apr/2003<EOS>
+
+2022-05-03 22:04:13.176 | INFO     | __main__:train:54 - Epoch 77 step 74 loss 0.0026
+2022-05-03 22:04:13.180 | INFO     | __main__:train:59 - Inference | target: 08/Mar/2034, pred:08/Mar/2034<EOS>
+
+2022-05-03 22:04:14.362 | INFO     | __main__:train:54 - Epoch 78 step 49 loss 0.0034
+2022-05-03 22:04:14.366 | INFO     | __main__:train:59 - Inference | target: 10/Aug/1993, pred:10/Aug/1993<EOS>
+
+2022-05-03 22:04:15.592 | INFO     | __main__:train:54 - Epoch 79 step 24 loss 0.0027
+2022-05-03 22:04:15.596 | INFO     | __main__:train:59 - Inference | target: 14/Nov/1980, pred:14/Nov/1980<EOS>
+
+2022-05-03 22:04:16.780 | INFO     | __main__:train:54 - Epoch 79 step 124 loss 0.0026
+2022-05-03 22:04:16.786 | INFO     | __main__:train:59 - Inference | target: 13/Apr/2004, pred:13/Apr/2004<EOS>
+
+2022-05-03 22:04:18.010 | INFO     | __main__:train:54 - Epoch 80 step 99 loss 0.0023
+2022-05-03 22:04:18.014 | INFO     | __main__:train:59 - Inference | target: 16/Sep/1998, pred:16/Sep/1998<EOS>
+
+2022-05-03 22:04:19.161 | INFO     | __main__:train:54 - Epoch 81 step 74 loss 0.0021
+2022-05-03 22:04:19.164 | INFO     | __main__:train:59 - Inference | target: 30/Oct/2007, pred:30/Oct/2007<EOS>
+
+2022-05-03 22:04:20.285 | INFO     | __main__:train:54 - Epoch 82 step 49 loss 0.0022
+2022-05-03 22:04:20.292 | INFO     | __main__:train:59 - Inference | target: 15/Oct/2021, pred:15/Oct/2021<EOS>
+
+2022-05-03 22:04:21.401 | INFO     | __main__:train:54 - Epoch 83 step 24 loss 0.0020
+2022-05-03 22:04:21.405 | INFO     | __main__:train:59 - Inference | target: 23/Nov/2013, pred:23/Nov/2013<EOS>
+
+2022-05-03 22:04:22.541 | INFO     | __main__:train:54 - Epoch 83 step 124 loss 0.0020
+2022-05-03 22:04:22.545 | INFO     | __main__:train:59 - Inference | target: 06/Apr/1975, pred:06/Apr/1975<EOS>
+
+2022-05-03 22:04:23.655 | INFO     | __main__:train:54 - Epoch 84 step 99 loss 0.0017
+2022-05-03 22:04:23.659 | INFO     | __main__:train:59 - Inference | target: 13/Oct/2003, pred:13/Oct/2003<EOS>
+
+2022-05-03 22:04:24.790 | INFO     | __main__:train:54 - Epoch 85 step 74 loss 0.0017
+2022-05-03 22:04:24.794 | INFO     | __main__:train:59 - Inference | target: 18/Jan/1988, pred:18/Jan/1988<EOS>
+
+2022-05-03 22:04:25.910 | INFO     | __main__:train:54 - Epoch 86 step 49 loss 0.0016
+2022-05-03 22:04:25.914 | INFO     | __main__:train:59 - Inference | target: 21/Oct/1975, pred:21/Oct/1975<EOS>
+
+2022-05-03 22:04:27.018 | INFO     | __main__:train:54 - Epoch 87 step 24 loss 0.0019
+2022-05-03 22:04:27.022 | INFO     | __main__:train:59 - Inference | target: 27/Feb/2031, pred:27/Feb/2031<EOS>
+
+2022-05-03 22:04:28.129 | INFO     | __main__:train:54 - Epoch 87 step 124 loss 0.0014
+2022-05-03 22:04:28.133 | INFO     | __main__:train:59 - Inference | target: 19/Feb/1988, pred:19/Feb/1988<EOS>
+
+2022-05-03 22:04:29.254 | INFO     | __main__:train:54 - Epoch 88 step 99 loss 0.0013
+2022-05-03 22:04:29.260 | INFO     | __main__:train:59 - Inference | target: 11/Jan/1977, pred:11/Jan/1977<EOS>
+
+2022-05-03 22:04:30.379 | INFO     | __main__:train:54 - Epoch 89 step 74 loss 0.0012
+2022-05-03 22:04:30.385 | INFO     | __main__:train:59 - Inference | target: 31/Dec/1991, pred:31/Dec/1991<EOS>
+
+2022-05-03 22:04:31.500 | INFO     | __main__:train:54 - Epoch 90 step 49 loss 0.0012
+2022-05-03 22:04:31.504 | INFO     | __main__:train:59 - Inference | target: 28/Apr/2021, pred:28/Apr/2021<EOS>
+
+2022-05-03 22:04:32.611 | INFO     | __main__:train:54 - Epoch 91 step 24 loss 0.0010
+2022-05-03 22:04:32.616 | INFO     | __main__:train:59 - Inference | target: 19/Jan/2027, pred:19/Jan/2027<EOS>
+
+2022-05-03 22:04:33.723 | INFO     | __main__:train:54 - Epoch 91 step 124 loss 0.0010
+2022-05-03 22:04:33.727 | INFO     | __main__:train:59 - Inference | target: 11/Jan/2024, pred:11/Jan/2024<EOS>
+
+2022-05-03 22:04:34.842 | INFO     | __main__:train:54 - Epoch 92 step 99 loss 0.0009
+2022-05-03 22:04:34.846 | INFO     | __main__:train:59 - Inference | target: 10/Dec/2000, pred:10/Dec/2000<EOS>
+
+2022-05-03 22:04:35.946 | INFO     | __main__:train:54 - Epoch 93 step 74 loss 0.0011
+2022-05-03 22:04:35.950 | INFO     | __main__:train:59 - Inference | target: 14/Apr/2021, pred:14/Apr/2021<EOS>
+
+2022-05-03 22:04:37.073 | INFO     | __main__:train:54 - Epoch 94 step 49 loss 0.0010
+2022-05-03 22:04:37.077 | INFO     | __main__:train:59 - Inference | target: 05/May/2010, pred:05/May/2010<EOS>
+
+2022-05-03 22:04:38.217 | INFO     | __main__:train:54 - Epoch 95 step 24 loss 0.0009
+2022-05-03 22:04:38.221 | INFO     | __main__:train:59 - Inference | target: 10/Dec/1985, pred:10/Dec/1985<EOS>
+
+2022-05-03 22:04:39.339 | INFO     | __main__:train:54 - Epoch 95 step 124 loss 0.0009
+2022-05-03 22:04:39.343 | INFO     | __main__:train:59 - Inference | target: 21/Sep/2011, pred:21/Sep/2011<EOS>
+
+2022-05-03 22:04:40.456 | INFO     | __main__:train:54 - Epoch 96 step 99 loss 0.0007
+2022-05-03 22:04:40.459 | INFO     | __main__:train:59 - Inference | target: 04/Mar/1996, pred:04/Mar/1996<EOS>
+
+2022-05-03 22:04:41.587 | INFO     | __main__:train:54 - Epoch 97 step 74 loss 0.0007
+2022-05-03 22:04:41.591 | INFO     | __main__:train:59 - Inference | target: 09/Jan/1992, pred:09/Jan/1992<EOS>
+
+2022-05-03 22:04:42.710 | INFO     | __main__:train:54 - Epoch 98 step 49 loss 0.0006
+2022-05-03 22:04:42.714 | INFO     | __main__:train:59 - Inference | target: 17/Nov/1993, pred:17/Nov/1993<EOS>
+
+2022-05-03 22:04:43.846 | INFO     | __main__:train:54 - Epoch 99 step 24 loss 0.0006
+2022-05-03 22:04:43.850 | INFO     | __main__:train:59 - Inference | target: 28/May/2020, pred:28/May/2020<EOS>
+
+2022-05-03 22:04:44.970 | INFO     | __main__:train:54 - Epoch 99 step 124 loss 0.0006
+2022-05-03 22:04:44.974 | INFO     | __main__:train:59 - Inference | target: 27/Mar/1982, pred:27/Mar/1982<EOS>
+
+2022-05-03 22:04:46.095 | INFO     | __main__:train:54 - Epoch 100 step 99 loss 0.0006
+2022-05-03 22:04:46.099 | INFO     | __main__:train:59 - Inference | target: 14/Sep/1976, pred:14/Sep/1976<EOS>
+
+2022-05-03 22:04:47.212 | INFO     | __main__:train:54 - Epoch 101 step 74 loss 0.0005
+2022-05-03 22:04:47.216 | INFO     | __main__:train:59 - Inference | target: 16/Apr/1976, pred:16/Apr/1976<EOS>
+
+2022-05-03 22:04:48.318 | INFO     | __main__:train:54 - Epoch 102 step 49 loss 0.0005
+2022-05-03 22:04:48.322 | INFO     | __main__:train:59 - Inference | target: 12/Jul/2011, pred:12/Jul/2011<EOS>
+
+2022-05-03 22:04:49.442 | INFO     | __main__:train:54 - Epoch 103 step 24 loss 0.0005
+2022-05-03 22:04:49.446 | INFO     | __main__:train:59 - Inference | target: 04/Dec/2022, pred:04/Dec/2022<EOS>
+
+2022-05-03 22:04:50.575 | INFO     | __main__:train:54 - Epoch 103 step 124 loss 0.0005
+2022-05-03 22:04:50.579 | INFO     | __main__:train:59 - Inference | target: 14/Nov/2022, pred:14/Nov/2022<EOS>
+
+2022-05-03 22:04:51.684 | INFO     | __main__:train:54 - Epoch 104 step 99 loss 0.0004
+2022-05-03 22:04:51.689 | INFO     | __main__:train:59 - Inference | target: 24/Mar/2004, pred:24/Mar/2004<EOS>
+
+2022-05-03 22:04:52.817 | INFO     | __main__:train:54 - Epoch 105 step 74 loss 0.0004
+2022-05-03 22:04:52.821 | INFO     | __main__:train:59 - Inference | target: 24/Jun/2015, pred:24/Jun/2015<EOS>
+
+2022-05-03 22:04:54.029 | INFO     | __main__:train:54 - Epoch 106 step 49 loss 0.0004
+2022-05-03 22:04:54.033 | INFO     | __main__:train:59 - Inference | target: 15/Oct/2021, pred:15/Oct/2021<EOS>
+
+2022-05-03 22:04:55.158 | INFO     | __main__:train:54 - Epoch 107 step 24 loss 0.0003
+2022-05-03 22:04:55.162 | INFO     | __main__:train:59 - Inference | target: 27/Sep/1997, pred:27/Sep/1997<EOS>
+
+2022-05-03 22:04:56.295 | INFO     | __main__:train:54 - Epoch 107 step 124 loss 0.0003
+2022-05-03 22:04:56.299 | INFO     | __main__:train:59 - Inference | target: 04/Oct/1998, pred:04/Oct/1998<EOS>
+
+2022-05-03 22:04:57.409 | INFO     | __main__:train:54 - Epoch 108 step 99 loss 0.0003
+2022-05-03 22:04:57.413 | INFO     | __main__:train:59 - Inference | target: 10/Jun/2027, pred:10/Jun/2027<EOS>
+
+2022-05-03 22:04:58.523 | INFO     | __main__:train:54 - Epoch 109 step 74 loss 0.0003
+2022-05-03 22:04:58.528 | INFO     | __main__:train:59 - Inference | target: 28/Jun/2000, pred:28/Jun/2000<EOS>
+
+2022-05-03 22:04:59.637 | INFO     | __main__:train:54 - Epoch 110 step 49 loss 0.0003
+2022-05-03 22:04:59.641 | INFO     | __main__:train:59 - Inference | target: 08/Jul/2028, pred:08/Jul/2028<EOS>
+
+2022-05-03 22:05:00.742 | INFO     | __main__:train:54 - Epoch 111 step 24 loss 0.0003
+2022-05-03 22:05:00.746 | INFO     | __main__:train:59 - Inference | target: 18/Jan/2014, pred:18/Jan/2014<EOS>
+
+2022-05-03 22:05:01.848 | INFO     | __main__:train:54 - Epoch 111 step 124 loss 0.0002
+2022-05-03 22:05:01.852 | INFO     | __main__:train:59 - Inference | target: 23/Jun/2028, pred:23/Jun/2028<EOS>
+
+2022-05-03 22:05:02.966 | INFO     | __main__:train:54 - Epoch 112 step 99 loss 0.0003
+2022-05-03 22:05:02.969 | INFO     | __main__:train:59 - Inference | target: 30/Dec/2005, pred:30/Dec/2005<EOS>
+
+2022-05-03 22:05:04.094 | INFO     | __main__:train:54 - Epoch 113 step 74 loss 0.0002
+2022-05-03 22:05:04.098 | INFO     | __main__:train:59 - Inference | target: 02/Sep/1994, pred:02/Sep/1994<EOS>
+
+2022-05-03 22:05:05.213 | INFO     | __main__:train:54 - Epoch 114 step 49 loss 0.0002
+2022-05-03 22:05:05.217 | INFO     | __main__:train:59 - Inference | target: 09/Jun/2007, pred:09/Jun/2007<EOS>
+
+2022-05-03 22:05:06.330 | INFO     | __main__:train:54 - Epoch 115 step 24 loss 0.0002
+2022-05-03 22:05:06.335 | INFO     | __main__:train:59 - Inference | target: 25/Sep/2029, pred:25/Sep/2029<EOS>
+
+2022-05-03 22:05:07.447 | INFO     | __main__:train:54 - Epoch 115 step 124 loss 0.0002
+2022-05-03 22:05:07.451 | INFO     | __main__:train:59 - Inference | target: 28/Jun/1986, pred:28/Jun/1986<EOS>
+
+2022-05-03 22:05:08.559 | INFO     | __main__:train:54 - Epoch 116 step 99 loss 0.0002
+2022-05-03 22:05:08.563 | INFO     | __main__:train:59 - Inference | target: 07/Jul/2001, pred:07/Jul/2001<EOS>
+
+2022-05-03 22:05:09.668 | INFO     | __main__:train:54 - Epoch 117 step 74 loss 0.0002
+2022-05-03 22:05:09.673 | INFO     | __main__:train:59 - Inference | target: 28/Dec/2007, pred:28/Dec/2007<EOS>
+
+2022-05-03 22:05:10.776 | INFO     | __main__:train:54 - Epoch 118 step 49 loss 0.0002
+2022-05-03 22:05:10.780 | INFO     | __main__:train:59 - Inference | target: 08/Jul/2033, pred:08/Jul/2033<EOS>
+
+2022-05-03 22:05:11.888 | INFO     | __main__:train:54 - Epoch 119 step 24 loss 0.0007
+2022-05-03 22:05:11.892 | INFO     | __main__:train:59 - Inference | target: 05/May/2014, pred:05/May/2014<EOS>
+
+2022-05-03 22:05:13.003 | INFO     | __main__:train:54 - Epoch 119 step 124 loss 0.0003
+2022-05-03 22:05:13.007 | INFO     | __main__:train:59 - Inference | target: 24/Mar/2008, pred:24/Mar/2008<EOS>
+
+2022-05-03 22:05:14.123 | INFO     | __main__:train:54 - Epoch 120 step 99 loss 0.0004
+2022-05-03 22:05:14.127 | INFO     | __main__:train:59 - Inference | target: 24/Aug/2005, pred:24/Aug/2005<EOS>
+
+2022-05-03 22:05:15.239 | INFO     | __main__:train:54 - Epoch 121 step 74 loss 0.0003
+2022-05-03 22:05:15.243 | INFO     | __main__:train:59 - Inference | target: 24/Jul/1981, pred:24/Jul/1981<EOS>
+
+2022-05-03 22:05:16.354 | INFO     | __main__:train:54 - Epoch 122 step 49 loss 0.0002
+2022-05-03 22:05:16.358 | INFO     | __main__:train:59 - Inference | target: 19/Sep/2025, pred:19/Sep/2025<EOS>
+
+2022-05-03 22:05:17.464 | INFO     | __main__:train:54 - Epoch 123 step 24 loss 0.0003
+2022-05-03 22:05:17.468 | INFO     | __main__:train:59 - Inference | target: 06/May/2010, pred:06/May/2010<EOS>
+
+2022-05-03 22:05:18.582 | INFO     | __main__:train:54 - Epoch 123 step 124 loss 0.0003
+2022-05-03 22:05:18.586 | INFO     | __main__:train:59 - Inference | target: 20/Feb/2023, pred:20/Feb/2023<EOS>
+
+2022-05-03 22:05:19.724 | INFO     | __main__:train:54 - Epoch 124 step 99 loss 0.0002
+2022-05-03 22:05:19.728 | INFO     | __main__:train:59 - Inference | target: 18/Jul/1992, pred:18/Jul/1992<EOS>
+
+2022-05-03 22:05:20.948 | INFO     | __main__:train:54 - Epoch 125 step 74 loss 0.0002
+2022-05-03 22:05:20.952 | INFO     | __main__:train:59 - Inference | target: 21/Aug/1989, pred:21/Aug/1989<EOS>
+
+2022-05-03 22:05:22.179 | INFO     | __main__:train:54 - Epoch 126 step 49 loss 0.0002
+2022-05-03 22:05:22.184 | INFO     | __main__:train:59 - Inference | target: 28/Dec/2028, pred:28/Dec/2028<EOS>
+
+2022-05-03 22:05:23.363 | INFO     | __main__:train:54 - Epoch 127 step 24 loss 0.0002
+2022-05-03 22:05:23.367 | INFO     | __main__:train:59 - Inference | target: 25/Feb/2017, pred:25/Feb/2017<EOS>
+
+2022-05-03 22:05:24.547 | INFO     | __main__:train:54 - Epoch 127 step 124 loss 0.0002
+2022-05-03 22:05:24.550 | INFO     | __main__:train:59 - Inference | target: 24/Aug/1984, pred:24/Aug/1984<EOS>
+
+2022-05-03 22:05:25.679 | INFO     | __main__:train:54 - Epoch 128 step 99 loss 0.0002
+2022-05-03 22:05:25.683 | INFO     | __main__:train:59 - Inference | target: 23/Dec/1982, pred:23/Dec/1982<EOS>
+
+2022-05-03 22:05:26.793 | INFO     | __main__:train:54 - Epoch 129 step 74 loss 0.0002
+2022-05-03 22:05:26.797 | INFO     | __main__:train:59 - Inference | target: 30/Sep/1987, pred:30/Sep/1987<EOS>
+
+2022-05-03 22:05:27.896 | INFO     | __main__:train:54 - Epoch 130 step 49 loss 0.0002
+2022-05-03 22:05:27.900 | INFO     | __main__:train:59 - Inference | target: 02/Nov/1987, pred:02/Nov/1987<EOS>
+
+2022-05-03 22:05:29.002 | INFO     | __main__:train:54 - Epoch 131 step 24 loss 0.0002
+2022-05-03 22:05:29.006 | INFO     | __main__:train:59 - Inference | target: 08/Jul/2028, pred:08/Jul/2028<EOS>
+
+2022-05-03 22:05:30.119 | INFO     | __main__:train:54 - Epoch 131 step 124 loss 0.0001
+2022-05-03 22:05:30.123 | INFO     | __main__:train:59 - Inference | target: 03/Jun/2001, pred:03/Jun/2001<EOS>
+
+2022-05-03 22:05:31.224 | INFO     | __main__:train:54 - Epoch 132 step 99 loss 0.0001
+2022-05-03 22:05:31.228 | INFO     | __main__:train:59 - Inference | target: 19/Sep/2012, pred:19/Sep/2012<EOS>
+
+2022-05-03 22:05:32.424 | INFO     | __main__:train:54 - Epoch 133 step 74 loss 0.0001
+2022-05-03 22:05:32.428 | INFO     | __main__:train:59 - Inference | target: 08/Feb/2009, pred:08/Feb/2009<EOS>
+
+2022-05-03 22:05:33.597 | INFO     | __main__:train:54 - Epoch 134 step 49 loss 0.0001
+2022-05-03 22:05:33.601 | INFO     | __main__:train:59 - Inference | target: 15/Sep/1988, pred:15/Sep/1988<EOS>
+
+2022-05-03 22:05:34.797 | INFO     | __main__:train:54 - Epoch 135 step 24 loss 0.0001
+2022-05-03 22:05:34.801 | INFO     | __main__:train:59 - Inference | target: 31/Jul/2015, pred:31/Jul/2015<EOS>
+
+2022-05-03 22:05:36.037 | INFO     | __main__:train:54 - Epoch 135 step 124 loss 0.0001
+2022-05-03 22:05:36.041 | INFO     | __main__:train:59 - Inference | target: 03/May/2025, pred:03/May/2025<EOS>
+
+2022-05-03 22:05:37.212 | INFO     | __main__:train:54 - Epoch 136 step 99 loss 0.0001
+2022-05-03 22:05:37.216 | INFO     | __main__:train:59 - Inference | target: 12/May/2033, pred:12/May/2033<EOS>
+
+2022-05-03 22:05:38.367 | INFO     | __main__:train:54 - Epoch 137 step 74 loss 0.0001
+2022-05-03 22:05:38.371 | INFO     | __main__:train:59 - Inference | target: 20/Dec/1974, pred:20/Dec/1974<EOS>
+
+2022-05-03 22:05:39.565 | INFO     | __main__:train:54 - Epoch 138 step 49 loss 0.0001
+2022-05-03 22:05:39.569 | INFO     | __main__:train:59 - Inference | target: 06/Aug/2022, pred:06/Aug/2022<EOS>
+
+2022-05-03 22:05:40.845 | INFO     | __main__:train:54 - Epoch 139 step 24 loss 0.0001
+2022-05-03 22:05:40.850 | INFO     | __main__:train:59 - Inference | target: 28/Nov/1993, pred:28/Nov/1993<EOS>
+
+2022-05-03 22:05:42.048 | INFO     | __main__:train:54 - Epoch 139 step 124 loss 0.0001
+2022-05-03 22:05:42.053 | INFO     | __main__:train:59 - Inference | target: 22/Feb/2033, pred:22/Feb/2033<EOS>
+
+2022-05-03 22:05:43.171 | INFO     | __main__:train:54 - Epoch 140 step 99 loss 0.0001
+2022-05-03 22:05:43.176 | INFO     | __main__:train:59 - Inference | target: 16/Jan/2030, pred:16/Jan/2030<EOS>
+
+2022-05-03 22:05:44.275 | INFO     | __main__:train:54 - Epoch 141 step 74 loss 0.0001
+2022-05-03 22:05:44.280 | INFO     | __main__:train:59 - Inference | target: 01/May/2007, pred:01/May/2007<EOS>
+
+2022-05-03 22:05:45.393 | INFO     | __main__:train:54 - Epoch 142 step 49 loss 0.0001
+2022-05-03 22:05:45.397 | INFO     | __main__:train:59 - Inference | target: 31/Mar/2003, pred:31/Mar/2003<EOS>
+
+2022-05-03 22:05:46.499 | INFO     | __main__:train:54 - Epoch 143 step 24 loss 0.0001
+2022-05-03 22:05:46.503 | INFO     | __main__:train:59 - Inference | target: 10/May/2016, pred:10/May/2016<EOS>
+
+2022-05-03 22:05:47.616 | INFO     | __main__:train:54 - Epoch 143 step 124 loss 0.0001
+2022-05-03 22:05:47.620 | INFO     | __main__:train:59 - Inference | target: 26/May/2004, pred:26/May/2004<EOS>
+
+2022-05-03 22:05:48.726 | INFO     | __main__:train:54 - Epoch 144 step 99 loss 0.0001
+2022-05-03 22:05:48.730 | INFO     | __main__:train:59 - Inference | target: 07/Jul/2016, pred:07/Jul/2016<EOS>
+
+2022-05-03 22:05:49.846 | INFO     | __main__:train:54 - Epoch 145 step 74 loss 0.0001
+2022-05-03 22:05:49.850 | INFO     | __main__:train:59 - Inference | target: 18/Dec/2021, pred:18/Dec/2021<EOS>
+
+2022-05-03 22:05:50.983 | INFO     | __main__:train:54 - Epoch 146 step 49 loss 0.0001
+2022-05-03 22:05:50.988 | INFO     | __main__:train:59 - Inference | target: 10/Jan/1996, pred:10/Jan/1996<EOS>
+
+2022-05-03 22:05:52.092 | INFO     | __main__:train:54 - Epoch 147 step 24 loss 0.0001
+2022-05-03 22:05:52.096 | INFO     | __main__:train:59 - Inference | target: 16/May/2010, pred:16/May/2010<EOS>
+
+2022-05-03 22:05:53.204 | INFO     | __main__:train:54 - Epoch 147 step 124 loss 0.0001
+2022-05-03 22:05:53.208 | INFO     | __main__:train:59 - Inference | target: 12/Aug/1993, pred:12/Aug/1993<EOS>
+
+2022-05-03 22:05:54.314 | INFO     | __main__:train:54 - Epoch 148 step 99 loss 0.0001
+2022-05-03 22:05:54.318 | INFO     | __main__:train:59 - Inference | target: 10/Sep/2012, pred:10/Sep/2012<EOS>
+
+2022-05-03 22:05:55.438 | INFO     | __main__:train:54 - Epoch 149 step 74 loss 0.0001
+2022-05-03 22:05:55.443 | INFO     | __main__:train:59 - Inference | target: 23/Jan/2032, pred:23/Jan/2032<EOS>
+
+2022-05-03 22:05:56.561 | INFO     | __main__:train:54 - Epoch 150 step 49 loss 0.0001
+2022-05-03 22:05:56.566 | INFO     | __main__:train:59 - Inference | target: 08/Jun/2016, pred:08/Jun/2016<EOS>
+
+2022-05-03 22:05:57.665 | INFO     | __main__:train:54 - Epoch 151 step 24 loss 0.0001
+2022-05-03 22:05:57.668 | INFO     | __main__:train:59 - Inference | target: 17/Nov/1992, pred:17/Nov/1992<EOS>
+
+2022-05-03 22:05:58.779 | INFO     | __main__:train:54 - Epoch 151 step 124 loss 0.0001
+2022-05-03 22:05:58.782 | INFO     | __main__:train:59 - Inference | target: 01/Feb/2007, pred:01/Feb/2007<EOS>
+
+2022-05-03 22:05:59.893 | INFO     | __main__:train:54 - Epoch 152 step 99 loss 0.0001
+2022-05-03 22:05:59.897 | INFO     | __main__:train:59 - Inference | target: 03/Jun/2021, pred:03/Jun/2021<EOS>
+
+2022-05-03 22:06:01.013 | INFO     | __main__:train:54 - Epoch 153 step 74 loss 0.0001
+2022-05-03 22:06:01.018 | INFO     | __main__:train:59 - Inference | target: 24/Jul/2034, pred:24/Jul/2034<EOS>
+
+2022-05-03 22:06:02.122 | INFO     | __main__:train:54 - Epoch 154 step 49 loss 0.0001
+2022-05-03 22:06:02.126 | INFO     | __main__:train:59 - Inference | target: 15/Oct/2029, pred:15/Oct/2029<EOS>
+
+2022-05-03 22:06:03.228 | INFO     | __main__:train:54 - Epoch 155 step 24 loss 0.0001
+2022-05-03 22:06:03.232 | INFO     | __main__:train:59 - Inference | target: 01/Mar/2027, pred:01/Mar/2027<EOS>
+
+2022-05-03 22:06:04.336 | INFO     | __main__:train:54 - Epoch 155 step 124 loss 0.0001
+2022-05-03 22:06:04.339 | INFO     | __main__:train:59 - Inference | target: 05/Jun/2007, pred:05/Jun/2007<EOS>
+
+2022-05-03 22:06:05.442 | INFO     | __main__:train:54 - Epoch 156 step 99 loss 0.0001
+2022-05-03 22:06:05.446 | INFO     | __main__:train:59 - Inference | target: 18/Oct/2006, pred:18/Oct/2006<EOS>
+
+2022-05-03 22:06:06.616 | INFO     | __main__:train:54 - Epoch 157 step 74 loss 0.0001
+2022-05-03 22:06:06.622 | INFO     | __main__:train:59 - Inference | target: 30/Jun/2028, pred:30/Jun/2028<EOS>
+
+2022-05-03 22:06:07.798 | INFO     | __main__:train:54 - Epoch 158 step 49 loss 0.0001
+2022-05-03 22:06:07.807 | INFO     | __main__:train:59 - Inference | target: 14/Apr/2021, pred:14/Apr/2021<EOS>
+
