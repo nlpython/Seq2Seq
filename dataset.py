@@ -52,7 +52,10 @@ class DateDataset(Dataset):
         if not isinstance(idx, list):
             idx = idx.tolist()
         for i in idx:
-            x.append(self.i2v[i])
             if i == self.end_token:
                 break
+            x.append(self.i2v[i])
         return "".join(x)
+
+    def str2idx(self, str):
+        return [self.v2i[i] for i in str]

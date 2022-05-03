@@ -24,7 +24,7 @@ def get_parser():
                         help='max sequence length')
     parser.add_argument('--batch_size', type=int, default=32,
                         help='Batch size for training')
-    parser.add_argument('--epochs', type=int, default=500,
+    parser.add_argument('--epochs', type=int, default=150,
                         help='Number of epochs to train for')
     parser.add_argument('--lr', type=float, default=1e-3,
                         help='Learning rate')

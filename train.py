@@ -2,9 +2,10 @@ import torch
 from torch import nn
 from dataset import DateDataset
 from torch.utils.data import DataLoader
-from args import print_arguments, get_parser
+from hyperParams import print_arguments, get_parser
 from loguru import logger
 from models.seq2seq import Seq2Seq
+import pickle
 
 def train():
 
@@ -30,6 +31,12 @@ def train():
 
     optimeizer = torch.optim.Adam(model.parameters(), lr=args.lr)
     loss_func = nn.CrossEntropyLoss()
+
+    # save dataset and args
+    with open('checkpoints/dataset.pkl', 'wb') as f:
+        pickle.dump(dataset, f)
+    with open('checkpoints/args.pkl', 'wb') as f:
+        pickle.dump(args, f)
 
     # train
     logger.info("Start training...")
@@ -58,6 +65,11 @@ def train():
                 src = dataset.idx2str(batch['enc_input'][0].cpu().numpy())
                 logger.info(f"Inference | target: {target}, pred:{res}\n")
                 model.train()
+
+    logger.info("Training finished.")
+    logger.info('Saving model...')
+    torch.save(model.state_dict(), 'checkpoints/seq2seq.pth')
+    logger.info('Successfully saved.')
 
 
 if __name__ == '__main__':
